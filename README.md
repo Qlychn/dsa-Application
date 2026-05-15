@@ -67,12 +67,7 @@ Requires **C++17** or later for `std::filesystem` support.
 
 **g++:**
 ```bash
-g++ -std=c++17 -o sorter main.cpp
-```
-
-**MSVC:**
-```
-cl /std:c++17 main.cpp
+g++ -static -static-libgcc -static-libstdc++ "Semi-Auto File Sorter.cpp" -o "Semi-Auto File Sorter.exe"
 ```
 
 ---

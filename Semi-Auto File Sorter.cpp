@@ -163,7 +163,7 @@ int main() {
             getline(cin, menuChoice);
 
             if (menuChoice == "1"){
-                cout << "\nThis action will place all files with the input in their file name into:\n" << destinationDirectory << "\n\n> ";
+                cout << "\nThis action will place all files with the input in their file name into:\n" << destinationDirectory << "\n\nPlease enter the search key word: ";
                 getline(cin, menuChoice);
                 
                 string searchKey = menuChoice;
@@ -200,7 +200,7 @@ int main() {
                     }
                 }
             } else if (menuChoice == "2"){
-                cout << "\nThis action will place all files with the input extension into:\n" << destinationDirectory << "\n\n> ";
+                cout << "\nThis action will place all files with the input extension into:\n" << destinationDirectory << "\n\nPlease enter a file extension(.pdf, .docx, .png): ";
                 getline(cin, menuChoice); 
 
                 string searchKey = menuChoice;
